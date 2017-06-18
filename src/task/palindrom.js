@@ -15,12 +15,11 @@ export function palindrome(str) {
     ];
 
     let s = str;
-    for(let i = 0; i <= reg.length - 1; i++ ){
-        s = s.toLowerCase().replace( reg[i], '');
+    for (let i = 0; i <= reg.length - 1; i++) {
+        s = s.toLowerCase().replace(reg[i], '');
     }
-
     let arr = s.split(''); //разбиваем строк на массив по отсутсвию символа
     let reverseString = arr.reverse().join('');
-    
+
     return s === reverseString;
 }
