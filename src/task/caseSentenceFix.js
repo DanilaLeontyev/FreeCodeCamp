@@ -1,5 +1,5 @@
 export function caseSentenceFix(str) {
-    let arr = str.toLowerCase().split(' ');
+    let arr = str.toLowerCase().split(' '); // массив слов
     let mofiyerString = '';
 
     arr.forEach(function (element) {
