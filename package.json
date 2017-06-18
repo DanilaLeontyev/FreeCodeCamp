@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/test.js -w --require babel-register",
-    "start": "babel src -d lib & node lib/index.js & exit 0"
+    "test": "mocha ./test/*.js -w --require babel-register",
+    "start": "babel ./src/index.js -o ./lib/index.js"
   },
   "author": "DanilaLeontyev",
   "license": "ISC",

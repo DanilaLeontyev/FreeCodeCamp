@@ -2,7 +2,7 @@
  * Created by Donsh on 6/14/2017.
  */
 import assert from 'assert';
-import {palindrome} from '../src/index';
+import {palindrome} from '../src/task/palindrom';
 
 
 //тут пишем тесты
