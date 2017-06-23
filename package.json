@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/*.js -w --require babel-register",
+    "test": "mocha ./test/slasher.js -w --require babel-register",
     "start": "babel ./src/index.js -o ./lib/index.js"
   },
   "author": "DanilaLeontyev",
